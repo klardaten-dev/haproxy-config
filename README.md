@@ -31,6 +31,9 @@ manual. It was checked against the ~370 configurations in HAProxy's own regressi
 files with HAProxy content. For other names (e.g. `conf.d/10-web.cfg`) use *Override File Type → HAProxy* or add a
 pattern under *Settings → Editor → File Types → HAProxy*.
 
+## Source code
+The plugin is closed source (free to use under the EULA); this repository hosts its documentation, license and issue tracker. The source code is not public.
+
 ## Support
 Please open an [issue](../../issues) for bugs and feature requests. Include your IDE version and, if possible, a minimal
 config snippet that shows the problem (remove secrets and internal host names first).
