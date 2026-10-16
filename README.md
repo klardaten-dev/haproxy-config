@@ -17,10 +17,14 @@ Install: *Settings → Plugins → Marketplace → search "HAProxy Config"*.
 - Inspections: unknown or misplaced keywords, invalid actions for a rule set, undefined backends/ACLs, duplicate proxy or
   server names, unused ACLs, deprecated keywords
 - Quick documentation (Ctrl+Q / F1) with syntax, allowed sections, version info and a link to the official manual
+- **Target version check**: pick the HAProxy version your servers run (*Settings | Languages & Frameworks | HAProxy*);
+  sections, keywords, actions, bind/server options, fetches and converters newer than that are flagged, and completion
+  only offers what that version supports
+- **Reformat Code**: section bodies indented consistently, trailing whitespace removed; hand-aligned arguments are kept
 - Structure view, section folding, `#` commenting
 
-Keyword data is generated from the official HAProxy configuration manuals 2.8, 3.0, 3.2 and the current development
-manual. It was checked against the ~370 configurations in HAProxy's own regression test suite.
+Keyword data is generated from the official HAProxy configuration manuals 2.6, 2.8, 3.0, 3.1, 3.2, 3.3, 3.4 and the
+current development manual (3.5-dev). It was checked against the ~370 configurations in HAProxy's own regression test suite.
 
 | Inspections | Quick documentation |
 |---|---|
